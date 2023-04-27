@@ -13,27 +13,27 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5488202212:AAEH1miPfEFks6QtpF7Y8v8_vxA686jTaVQ")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "18682430"))
+APP_ID = int(os.environ.get("APP_ID", "9774346"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1fea25591eb7e3dd382ce3743d8f945b")
+API_HASH = os.environ.get("API_HASH", "a92aed7d74654a563af4b07efbcd88e9")
 
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001750523827"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1923545887"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "907544310"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "brengsextower")
+OWNER = os.environ.get("OWNER", "Eror_404_NF")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "postgresql://lnzurrvo:W4Mn4fGUA5PP9f5FGF1ADBdDj47GVsgg@mel.db.elephantsql.com/lnzurrvo")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001750445812"))
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001483669027"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001622055987"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001963199652"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001529670135"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001511339922"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -43,7 +43,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS","1923545887").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS","1939762328").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
